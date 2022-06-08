@@ -4,6 +4,7 @@ import (
 	"log"
 	"net/http"
 	"starter_kit_rest_api_golang/database"
+	"starter_kit_rest_api_golang/model"
 	"starter_kit_rest_api_golang/route"
 
 	"github.com/gorilla/mux"
@@ -32,6 +33,6 @@ func initDB() {
 	if err != nil {
 		panic(err.Error())
 	}
-	//database.Migrate(model)
+	database.Migrate(&model.Person{})
 
 }
