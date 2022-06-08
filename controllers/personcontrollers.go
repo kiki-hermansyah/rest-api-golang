@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"net/http"
-	"rest-go-demo/database"
-	"rest-go-demo/model"
+	"starter_kit_rest_api_golang/database"
+	"starter_kit_rest_api_golang/model"
 	"strconv"
 
 	"github.com/gorilla/mux"

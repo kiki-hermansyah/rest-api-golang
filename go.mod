@@ -1,4 +1,4 @@
-module rest-go-demo
+module starter_kit_rest_api_golang
 
 go 1.13
 

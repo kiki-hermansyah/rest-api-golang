@@ -1,7 +1,7 @@
 package route
 
 import (
-	"rest-go-demo/controllers"
+	"starter_kit_rest_api_golang/controllers"
 
 	"github.com/gorilla/mux"
 )

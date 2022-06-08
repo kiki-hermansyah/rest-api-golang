@@ -3,8 +3,8 @@ package main
 import (
 	"log"
 	"net/http"
-	"rest-go-demo/database"
-	"rest-go-demo/route"
+	"starter_kit_rest_api_golang/database"
+	"starter_kit_rest_api_golang/route"
 
 	"github.com/gorilla/mux"
 	_ "github.com/jinzhu/gorm/dialects/mysql" //Required for MySQL dialect

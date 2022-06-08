@@ -2,7 +2,7 @@ package database
 
 import (
 	"log"
-	"rest-go-demo/model"
+	"starter_kit_rest_api_golang/model"
 
 	"github.com/jinzhu/gorm"
 )
