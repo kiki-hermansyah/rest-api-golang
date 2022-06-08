@@ -4,7 +4,6 @@ import (
 	"log"
 	"net/http"
 	"rest-go-demo/database"
-	"rest-go-demo/entity"
 	"rest-go-demo/route"
 
 	"github.com/gorilla/mux"
@@ -33,5 +32,6 @@ func initDB() {
 	if err != nil {
 		panic(err.Error())
 	}
-	database.Migrate(&entity.Person{})
+	//database.Migrate(model)
+
 }

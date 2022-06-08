@@ -1,4 +1,4 @@
-package entity
+package model
 
 //Person object for REST(CRUD)
 type Person struct {

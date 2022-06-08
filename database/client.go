@@ -2,7 +2,7 @@ package database
 
 import (
 	"log"
-	"rest-go-demo/entity"
+	"rest-go-demo/model"
 
 	"github.com/jinzhu/gorm"
 )
@@ -22,7 +22,7 @@ func Connect(connectionString string) error {
 }
 
 //Migrate create/updates database table
-func Migrate(table *entity.Person) {
+func Migrate(table *model.Person) {
 	Connector.AutoMigrate(&table)
 	log.Println("Table migrated")
 }
