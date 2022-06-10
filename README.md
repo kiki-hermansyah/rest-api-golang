@@ -1,6 +1,6 @@
 
 # Rest Api GOLANG
-starter kit to develop rest api using GO language programming 
+starter kit for develop rest api using GO language programming 
 
 
 
