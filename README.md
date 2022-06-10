@@ -15,4 +15,5 @@
 ## Authors
 
 - [@kiki-hermansyah](https://github.com/kiki-hermansyah)
+- - [@Alldy Novryaldy](https://github.com/alldynovryaldy)
 
