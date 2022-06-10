@@ -1,5 +1,5 @@
 
-# Rest Api GO LANGUAGE
+# Rest Api GO Language
 starter kit for develop rest api using GO language programming 
 
 
