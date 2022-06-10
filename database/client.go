@@ -21,8 +21,13 @@ func Connect(connectionString string) error {
 	return nil
 }
 
+func CloseDatabase(connection *gorm.DB) {
+	sqldb := connection.DB()
+	sqldb.Close()
+}
+
 //Migrate create/updates database table
-func Migrate(table *model.Person) {
+func Migrate(table *model.User) {
 	Connector.AutoMigrate(&table)
 	log.Println("Table migrated")
 }

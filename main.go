@@ -16,6 +16,7 @@ func main() {
 	log.Println("Starting the HTTP server on port 8090")
 	router := mux.NewRouter().StrictSlash(true)
 	route.Route(router)
+	route.Auth(router)
 	log.Fatal(http.ListenAndServe(":8090", router))
 }
 
@@ -33,6 +34,6 @@ func initDB() {
 	if err != nil {
 		panic(err.Error())
 	}
-	database.Migrate(&model.Person{})
+	database.Migrate(&model.User{})
 
 }
